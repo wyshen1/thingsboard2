@@ -304,6 +304,13 @@ export class MenuService {
         path: '/usage',
         icon: 'insert_chart',
         notExact: true
+      },
+      {
+        id: guid(),
+        name: 'device.devices',
+        type: 'link',
+        path: '/devices',
+        icon: 'devices_other'
       }
     );
     return sections;
